@@ -1,0 +1,14 @@
+version: '2.3'
+
+services:
+  foldercreation: 
+    image: baradiyah/foldercreation:1.0.0.3
+    restart: on-failure
+    network_mode: host
+    volumes:
+      - D:\testfolder\:/infolder
+    environment:
+      - "myconfig__rootFolder=/infolder"
+      - "myconfig__folderCountLimit=100"
+      
+

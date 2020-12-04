@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "FolderCreation": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "myconfig__rootFolder": "D:\\testfolder\\",
+        "myconfig__folderCountLimit": "100"
+      }
+    }
+  }
+}
