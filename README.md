@@ -13,4 +13,3 @@ step 3: Set environment variable:
 step 3: Open terminal(Linux/ubuntu) or cmd(windows)
 step 4: Drive to folder where docker-compose.yml file
 step 5: Run command docker-compose up
-step 6: 
